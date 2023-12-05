@@ -1,0 +1,3 @@
+const a = "abdul quddus"
+
+console.log(a)
