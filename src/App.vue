@@ -33,3 +33,8 @@ export default {
 }
 </script>
 
+<style>
+  .custom-ul{
+    margin-bottom: 0%;
+  }
+</style>

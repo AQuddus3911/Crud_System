@@ -1,5 +1,7 @@
 <template>
-     <div class="center-image">
+  <div class="template">
+
+    <div class="center-image">
       <img  alt= "nexius logo" src="https://media.licdn.com/dms/image/D4D0BAQHHSPFbgn7thg/company-logo_200_200/0/1685715599813/nexius_ai_logo?e=2147483647&v=beta&t=3v5aDimgPJkr1YKuVhZp-dzR2iD0ocgnHjkHXu2oTy4">
     </div>
     <div class="my-container">
@@ -15,16 +17,16 @@
     
    <!-- <h1>Lahore</h1>-->
     <!--<button v-on:click="test()">clickme</button>-->
-     <!-- <button class="my-field" v-on:click="getdata " type="button">Submit</button> -->
+    <!-- <button class="my-field" v-on:click="getdata " type="button">Submit</button> -->
     
-     <button class="my-field" @click="submitForm">Submit</button>
+    <button class="my-field" @click="submitForm">Submit</button>
    </div>
 
      </div>
      <h1>Developer</h1>
      <label>Laravel</label>
      <input type="checkbox" value="Laravel" v-model="technology" id="Laravel"   /><br><br>
-
+     
      <label>Python</label>
      <input type="checkbox" value="Python" v-model="technology" id="Python"  /><br><br>
 
@@ -40,6 +42,7 @@
 
     
     <!--<input type="text" v-model="count"/>-->
+  </div>
    </template>
 <script>
 // import About from './About.vue'
@@ -130,7 +133,6 @@ h4{
   padding: 8px 12px;
   margin-bottom: 15px;
   
-  margin-bottom: 15px;
     background-color: #51867d29;
     border: 3px solid black;
     border-radius:6px;

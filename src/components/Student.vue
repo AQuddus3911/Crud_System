@@ -50,7 +50,9 @@ methods: {
 <style>
 .setting{
     position: relative;
-  height: 100vh;
+  height: 50vh;
+  background-color: rgb(200, 219, 223);
+  padding: 5%;
 }
 .dor{
     display: flex;
